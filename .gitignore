@@ -1,0 +1,21 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+### Virtual Environments ###
+.venv/
+venv/
+.venv.bak/
+venv.bak/
+
+### IntellIJ ###
+.idea/
+
+### VS Code ###
+.vscode
+
+### dotenv environment variables file ###
+.env
+.env.*
+!.env.example
