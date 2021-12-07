@@ -1,10 +1,9 @@
 import pandas as pd
 from http import HTTPStatus
 from .serializers import search_text_schema
-from flask import Blueprint, jsonify, request
 from docsumo.utils import get_csv_file_path_for_name
 from docsumo.utils import Rectangle, is_rectangle_in_inside_inner_rectangle
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 from marshmallow.exceptions import ValidationError
 
 blueprint = Blueprint('api', __name__)

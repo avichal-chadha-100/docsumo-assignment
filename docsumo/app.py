@@ -1,12 +1,8 @@
 """The app module, containing the app factory function."""
 from flask import Flask
-import logging
-import sys
 from docsumo.exceptions import InvalidUsage
 from docsumo.extensions import cors
 from docsumo.api import views as api_views
-from flask_restful import Api
-from flask_bootstrap import Bootstrap
 
 
 def create_app(config_object="docsumo.config.settings"):
